@@ -19,15 +19,15 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-black text-white`}>
         {children}
-       <script
+       <Script
   src="https://api.chatmate360.com/embed/v1/embed.js"
   data-chatbot-id="6808717b-8fd1-479c-baaa-83675b1f9c36"
   data-widget-base="https://chatmate360.com"
   data-primary-color="#769656"
   data-bg-color="#ffffff"
   data-text-color="#1f2937"
-  defer
-></script>
+  strategy="lazyOnload"
+/>
       </body>
     </html>
   )
