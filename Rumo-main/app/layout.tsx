@@ -21,7 +21,7 @@ export default function RootLayout({
         {children}
       <script
   src="https://api.chatmate360.com/embed/v1/embed.js"
-  data-chatbot-id="d017f2cc-f472-4fb7-9bd9-f549e26c1b57"
+  data-chatbot-id="3b312072-df45-4b78-b6ed-c9a5fd13a24b"
   data-widget-base="https://chatmate360.com"
   data-primary-color="#769656"
   data-bg-color="#ffffff"
